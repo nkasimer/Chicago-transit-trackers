@@ -6,7 +6,7 @@ I thought it would be helpful to have a repo with different scripts for pulling 
 My intent is to help people who want to use those APIs by giving a starting point for code that pulls the APIs and turns them into useful output.
 
 Traintracker pulls the CTA L API and turns it into a human-readable departure list given station IDs.
-Bustracker does the same for the CTA and PACE bus APIs. Pulling the PACE bus tracking data is non-obvious and not documented, so that pull may be useful even without the human-readable bit.  The input required for PACE is a bit more involved than what's needed for the CTA API.
+Bustracker does the same for the CTA and PACE bus APIs. Pulling the PACE bus tracking data is non-obvious and not documented, so that pull may be useful even without the human-readable bit.
 Divvyinfo pulls data on Divvy bikeshare, both nearby stations and nearby dockless bikes, for a given location.
 Transfercalculator calculates transfers between CTA routes (train or bus) to output machine-readable data on a departure + departures that connect with that departure, and then turns that into human readable output.
 
